@@ -4,13 +4,13 @@
 * argparse
 * numpy
 
-### Instruction: 
+### Instructions 
 
 ```python
 python3 AtomVolume_Calculator.py [--band_path "the file path for band.out"] [--eigenvec_path "the file path for eigenvec.out"] [--target_atom "a specific atom or 'all' for all atoms"]
 ```
 
-###Example-1:
+### Example-1:
 
 * run: python3 AtomVolume_Calculator.py --target_atom all
 
@@ -32,4 +32,4 @@ Namespace(band_path='./band.out', eigenvec_path='./eigenvec.out', target_atom='1
 The atom volume for 1O is 5.992598931196
 ```
 
-Any suggestions or more requirements are welcomed.
+#### Any suggestions or more requirements are welcomed.
