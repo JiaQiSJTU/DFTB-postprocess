@@ -88,7 +88,7 @@ if __name__ == '__main__':
     try:
         assert len(states)==len(eigenvectors)
     except AssertionError:
-        print("The band.out and eigenvec.out may not matched!!!")
+        print("The band.out and eigenvec.out may be not matched!!!")
         exit(0)
 
     if args.target_atom=='all':
